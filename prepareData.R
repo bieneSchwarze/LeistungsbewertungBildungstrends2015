@@ -26,7 +26,7 @@ library(DescTools)
 # -------------------------------------------------------------------
 # Lade IQB Bildungstrendsdaten 2015
 # -------------------------------------------------------------------
-setwd("E:\\SZ\\Projekt_LehrerNoten\\IQB-Daten\\1809-12a\\1809-12a\\Stata\\IQB-BT 2015")
+setwd("F:\\SZ\\Projekt_LehrerNoten\\IQB-Daten\\1809-12a\\1809-12a\\Stata\\IQB-BT 2015")
 S0 <- read.dta13("IQB-BT-2015_Schuelerfragebogen_SUF_1809-12a.dta")
 L0 <- read.dta13("IQB-BT-2015_DE_Eng_Lehrerfragebogen_SUF_v4.dta")
 H0 <- read.dta13("IQB-BT-2015_Schulleiterfragebogen_SUF_1809-12a.dta")
