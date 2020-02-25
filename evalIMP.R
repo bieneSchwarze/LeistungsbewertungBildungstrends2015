@@ -16,7 +16,7 @@ A <- read.table("resAll_m.txt", sep="\t", fill=TRUE, dec=",")
 head(A)
 colnames(A) <- c("Coef.", "Std. Err.", "z", "P>|z|", "95% UC", "95% OC")
 N <- 21813
-m <- 27
+m <- 30
 nc <- 23 
 allC <- NULL
 for(k in 1:nc){
